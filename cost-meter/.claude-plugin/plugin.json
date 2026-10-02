@@ -1,6 +1,6 @@
 {
   "name": "cost-meter",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "What this session has cost so far, live above the prompt.",
   "author": { "name": "Zafer Ayan" },
   "types": "./types/index.d.ts",

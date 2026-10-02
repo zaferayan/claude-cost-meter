@@ -2,13 +2,12 @@
 
 A Claude Code mod that shows what your session has cost so far, live, right above the prompt.
 
-```
- $0.42 / $5.00 budget   last turn $0.30 · 2 turns
-```
+![Cost Meter above the prompt, showing $1.27 of a $5.00 budget](docs/screenshot.png)
 
 - **Live total.** Updates as the session spends, mid-turn too. It's the same figure `/cost` shows, subagents included.
 - **Budget.** Green under half, yellow past half, red over, with a one-time warning when you cross it.
 - **`/spend`.** Turns, average per turn, and your priciest turn.
+- **VS Code.** The extension has no room above the prompt, so there the meter opens as a **Cost** pane instead. Run `/spend` to bring it back if you close it.
 
 On a Pro or Max plan the figure is what the same usage would cost on the API, not what you're billed.
 
