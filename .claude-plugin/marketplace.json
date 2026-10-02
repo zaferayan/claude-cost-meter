@@ -1,0 +1,11 @@
+{
+  "name": "zafer-mods",
+  "owner": { "name": "Zafer Ayan" },
+  "plugins": [
+    {
+      "name": "cost-meter",
+      "source": "./cost-meter",
+      "description": "What this session has cost so far, live above the prompt."
+    }
+  ]
+}

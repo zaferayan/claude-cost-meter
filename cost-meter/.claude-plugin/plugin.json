@@ -1,0 +1,15 @@
+{
+  "name": "cost-meter",
+  "version": "0.2.0",
+  "description": "What this session has cost so far, live above the prompt.",
+  "author": { "name": "Zafer Ayan" },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "budget": {
+      "type": "number",
+      "title": "Budget (USD)",
+      "description": "Turns the meter yellow at half and red past it, with a one-time warning. 0 for no budget.",
+      "default": 5
+    }
+  }
+}
