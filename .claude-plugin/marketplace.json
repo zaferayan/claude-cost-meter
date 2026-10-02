@@ -1,6 +1,9 @@
 {
   "name": "zafer-mods",
-  "owner": { "name": "Zafer Ayan" },
+  "owner": {
+    "name": "Zafer Ayan"
+  },
+  "description": "Claude Code mods by Zafer Ayan.",
   "plugins": [
     {
       "name": "cost-meter",
